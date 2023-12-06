@@ -706,7 +706,7 @@ export interface Result<T = Record<string, unknown>> {
     index?: number;
     link?: string;
     name?: string;
-    rawData: T | T[];
+    rawData: T;
     segment?: Segment;
     source: Source;
 }

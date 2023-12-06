@@ -27,7 +27,7 @@ export declare interface Result<T = Record<string, unknown>>
 |  [index?](./search-headless.result.index.md) | number | <i>(Optional)</i> The index of the result among the other results in the search. |
 |  [link?](./search-headless.result.link.md) | string | <i>(Optional)</i> A hyperlink associated with the result. |
 |  [name?](./search-headless.result.name.md) | string | <i>(Optional)</i> The name of the result. |
-|  [rawData](./search-headless.result.rawdata.md) | T \| T\[\] | Raw entity profile data in the shape of key-value pairs, or as an array of key-value pairs. |
+|  [rawData](./search-headless.result.rawdata.md) | T | Raw entity profile data in the shape of key-value pairs, or as an array of key-value pairs. |
 |  [segment?](./search-headless.result.segment.md) | [Segment](./search-headless.segment.md) | <i>(Optional)</i> A relevant segment associated with the result. Present for document verticals grouped by Segment. |
 |  [source](./search-headless.result.source.md) | [Source](./search-headless.source.md) | Represents the source of a [Result](./search-headless.result.md)<!-- -->. |
 
